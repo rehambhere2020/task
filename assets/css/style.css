@@ -462,6 +462,15 @@ nav {
   width: 100%;
   transform: scale(2, 2.5);
 }
+@media (min-width: 400px) and (max-width: 570px) {
+  .story__description img {
+    position: absolute;
+    top: -7rem;
+    left: -12rem;
+    width: 100%;
+    transform: scale(1.6, 1.5);
+  }
+}
 @media (min-width: 570px) and (max-width: 576px) {
   .story__description img {
     position: absolute;
